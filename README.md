@@ -9,3 +9,10 @@ Collection of autoupdate scripts for a bunch of linux and docker services
 ```bash
 sh -c "$(curl -L https://raw.githubusercontent.com/hxcde/autupdates/main/deb-flared-update.sh)"
 ```
+
+## Update all Docker Containers
+- Please note that this script automatically updates the containers when a new image is available. Make sure that you have backed up all important data from the containers beforehand and that you consider possible effects on your applications.
+
+```bash
+sh -c "$(curl -L https://raw.githubusercontent.com/hxcde/autupdates/main/update_docker_containers.sh)"
+```
