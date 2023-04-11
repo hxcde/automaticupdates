@@ -1,5 +1,5 @@
 # Update Scripts
-Collection of scripts for a bunch of linux and docker services
+Collection of scripts for a bunch of linux and docker services.
 
 ## Autoupdate for Cloudflared on Debian
 - The script is installing a cron job which updates the cloudflared package every night at midnight.
