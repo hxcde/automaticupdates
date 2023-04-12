@@ -7,12 +7,12 @@ Collection of scripts for a bunch of linux and docker services.
 - The syntax of cron can be looked up here. https://cron.help/
 
 ```bash
-sh -c "$(curl -L https://git.moelle.space/ymoelle/updatescripts/raw/branch/main/deb-flared-update.sh)"
+sh -c "$(curl -L https://git.moelle.space/hxcde/updatescripts/raw/branch/main/deb-flared-update.sh)"
 ```
 
 ## Update all Docker Containers
 - Please note that this script automatically updates the containers when a new image is available. Make sure that you have backed up all important data from the containers beforehand and that you consider possible effects on your applications.
 
 ```bash
-sh -c "$(curl -L https://git.moelle.space/ymoelle/updatescripts/raw/branch/main/update_docker_containers.sh)"
+sh -c "$(curl -L https://git.moelle.space/hxcde/updatescripts/raw/branch/main/update_docker_containers.sh)"
 ```
