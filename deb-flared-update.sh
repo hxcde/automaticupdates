@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /opt/
 touch flaredupdate.sh
 echo "curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb" | tee -a flaredupdate.sh
